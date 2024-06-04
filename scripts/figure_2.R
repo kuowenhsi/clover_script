@@ -58,6 +58,6 @@ p2 <- ggplot(data = AcLi_snp_combined, aes(x = name, y = R2))+
 
 p <- plot_grid(p1, p2, align = "h", rel_widths = c(5,2), nrow = 1, labels = c("(A)","(B)"))
 
-ggsave("./figures/figure_2.png", width = 6, height = 4)
+ggsave("./figures/figure_2.png", width = 6, height = 4, dpi = 900)
 
 
