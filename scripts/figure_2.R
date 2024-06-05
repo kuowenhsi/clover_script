@@ -4,7 +4,7 @@ library(cowplot)
 library(ggpubr)
 library(ggsignif)
 
-setwd("/Users/kuowenhsi/OneDrive - Washington University in St. Louis/GBS_wild_population/Molecular_ecology/clover_script")
+setwd("./clover_script")
 
 
 # read in data

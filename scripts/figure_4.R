@@ -8,7 +8,7 @@ library(ggforce)
 library(sp)
 
 # Set working directory
-setwd("/Users/kuowenhsi/OneDrive - Washington University in St. Louis/GBS_wild_population/Molecular_ecology/clover_script")
+setwd("./clover_script")
 
 # Read and process FST data
 fst_input <- read_tsv("./data/figure_4_bwa_415_20230527_100kb_0.8_fst.fst.summary") %>%

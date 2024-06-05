@@ -6,7 +6,7 @@ library(ggpubr)
 library(paletteer)
 
 # Set working directory to the specified path
-setwd("/Users/kuowenhsi/OneDrive - Washington University in St. Louis/GBS_wild_population/Molecular_ecology/clover_script")
+setwd("./clover_script")
 
 # Get a sorted list of data files matching pattern "Q" in the data directory
 files_data <- str_sort(list.files("./data")[str_detect(list.files("./data"), "Q")], numeric = TRUE)
